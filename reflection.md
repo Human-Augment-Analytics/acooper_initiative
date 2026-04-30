@@ -8,7 +8,7 @@
 
 HAAG researchers work on computer science problems that often have real-world applications. Some of those projects naturally evolve into external partnerships with cities, nonprofits, and organizations. This initiative documents and systematizes that partnership process—creating a replicable framework for how academic research can collaborate with real-world partners to achieve meaningful impact.
 
-The Real-World Collaboration Initiative provides HAAG faculty and researchers with a documented procedure for identifying collaboration opportunities, scoping partnerships with external organizations, building sustainable relationships, executing collaborative research, and measuring real-world impact. Using the Charleston Trains case study as our proof of concept, the initiative provides practical guidance at each phase, from initial exploratory conversations through partnership conclusion and knowledge sharing with the broader research community.
+The Real-World Collaboration Initiative provides HAAG faculty and researchers with a documented procedure for identifying [collaboration opportunities](website/opportunities.html), scoping partnerships with external organizations, building sustainable relationships, executing collaborative research, and measuring real-world impact. Using the Charleston Trains case study as our proof of concept, the initiative provides practical guidance at each phase, from initial exploratory conversations through partnership conclusion and knowledge sharing with the broader research community.
 
 ---
 
@@ -30,7 +30,7 @@ The Real-World Collaboration Initiative generated two procedures.
 
 This is the core deliverable — a five-phase framework that guides HAAG research projects through partnership development:
 
-1. **Identifying Opportunities** – Determining when a research project has genuine partnership potential (Go/No-Go criteria)
+1. **[Identifying Opportunities](website/opportunities.html)** – Determining when a research project has genuine partnership potential (Go/No-Go criteria)
 2. **Scoping Partnerships** – Defining specific, bounded problems with measurable outcomes and clear expectations
 3. **Building Relationships** – Establishing institutional buy-in, formal agreements, and communication structures
 4. **Executing the Partnership** – Managing active research with ongoing communication and iteration
@@ -78,3 +78,4 @@ This procedure covers the ongoing stewardship of the initiative itself — how t
 
 - **Collaboration procedure:** [governance.html](website/governance.html) defines decision authority at each phase, a partnership registry, quarterly oversight reviews, semi-annual community reports, and an annual procedure review
 - **Website/leadership procedure:** The Initiative Lead role is formally defined with named responsibilities; succession is built into the governance structure rather than left to chance
+
