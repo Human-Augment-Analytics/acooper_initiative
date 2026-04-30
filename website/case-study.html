@@ -10,21 +10,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="breadcrumb">
+        <a href="https://sites.gatech.edu/human-augmented-analytics-group/">← HAAG</a> <span>/</span> <a href="index.html">Initiative</a> <span>/</span> Charleston Case Study
+    </div>
+
     <header>
-        <h1>HAAG</h1>
-        <div class="tagline">Turning Research into Real-World Impact</div>
+        <h1>Real-World Collaboration Initiative</h1>
+        <div class="tagline">Building a Framework for Academic-Civic Research Partnerships</div>
         <div class="header-divider"></div>
-        <div class="header-subtitle">Research That Matters. Partnerships That Work.</div>
+        <div class="header-subtitle">From Charleston Trains to a Replicable Procedure</div>
     </header>
 
     <nav class="main-nav">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">HAAG</a>
+           Real-World Collaboration Initiative
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="case-study.html" class="nav-link active">Case Study</a></li>
-                <li><a href="partnerships.html" class="nav-link">Partnerships</a></li>
+                <li><a href="case-study.html" class="nav-link active">Charleston Case Study</a></li>
+                <li><a href="procedure.html" class="nav-link">The Procedure</a></li>
+                
                 <li><a href="opportunities.html" class="nav-link">Opportunities</a></li>
+                <li><a href="governance.html" class="nav-link">Governance & Integration</a></li>
                 <li><a href="faq.html" class="nav-link">FAQ</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
@@ -48,7 +54,8 @@
             <section id="intro">
                 <h2>Charleston Trains Case Study</h2>
                 <div class="intro-section">
-                    <p>One example of how HAAG researchers partnered with a real city to tackle an infrastructure challenge. This demonstrates our approach to collaboration: strategic, focused, and genuinely helpful. It's not every HAAG project that becomes an external partnership—we share this one because it shows what's possible when the fit is right.</p>
+                    <p><strong>This is the proof of concept</strong> for the Real-World Collaboration Initiative. The Charleston Trains partnership demonstrates what's possible when HAAG research engages with authentic civic challenges. It's also the foundation for the documented framework we're building to help other projects replicate this success.</p>
+                    <p><em>This case study is based on an interview between Avi Cooper (Initiative Lead) and Prof. Mussmann on April 23, 2026.</em></p>
                 </div>
             </section>
 
@@ -57,14 +64,14 @@
             <!-- Problem Section -->
             <section id="problem">
                 <h2>The Problem</h2>
-                <p>Train crossing blockages in Charleston, SC create cascading effects throughout the city:</p>
+                <p>Charleston, SC is a major port city that depends on an extensive rail network to transport goods from its port to destinations across the country. These rail lines cross through the city and intersect roadways at numerous locations. Since trains receive priority at these crossings, they frequently cause significant road blockages that cascade into multiple challenges:</p>
                 <ul class="checkmark-list">
                     <li>Traffic congestion on major thoroughfares</li>
-                    <li>Delayed emergency response times</li>
-                    <li>Frustrated commuters and business impact</li>
-                    <li>Inefficient traffic signal timing</li>
+                    <li>Delayed emergency response times for ambulances and fire trucks</li>
+                    <li>Economic impact from frustrated commuters and business disruptions</li>
+                    <li>Suboptimal traffic signal timing that doesn't account for train blockages</li>
                 </ul>
-                <p>The City of Charleston had been seeking data-driven approaches to predict these blockages and optimize traffic flow, but lacked the in-house computational expertise to build predictive models from their operational data.</p>
+                <p>The City of Charleston recognized the need for data-driven approaches to predict these blockages and optimize traffic flow, but lacked the in-house computational expertise to develop predictive models from their operational data.</p>
             </section>
 
             <div class="divider"></div>
@@ -73,35 +80,38 @@
             <section id="partnership">
                 <h2>The Partnership</h2>
 
-                <h3>HAAG's Role</h3>
-                <p>Develop a predictive model for train crossing blockages using:</p>
-                <ul class="checkmark-list">
-                    <li>Real-time transportation data feeds</li>
-                    <li>Historical train operational records</li>
-                    <li>Emergency response call logs</li>
-                    <li>Traffic signal timing patterns</li>
-                </ul>
+                <p>
+                    Professor Mussmann, a faculty member at Georgia Tech, is drawn to applied machine learning projects that tackle real-world challenges. These partnerships appeal to him because they both present interesting research problems and allow his work to create tangible impact beyond academia.
+                </p>
 
-                <h3>Charleston's Role</h3>
-                <p>Enable the research partnership by providing:</p>
-                <ul class="checkmark-list">
-                    <li>Real-world data access and operational context</li>
-                    <li>Domain expertise and problem validation</li>
-                    <li>Deployment infrastructure and testing environments</li>
-                    <li>Regular feedback on research relevance and feasibility</li>
-                </ul>
+                <p>
+                    Through <a href="https://pingeorgia.org">Partnership for Innovation (PIN)</a>, an organization designed to increase innovation opportunities through collaboration, Prof. Mussmann was connected with a project manager in the City of Charleston. The city presented a compelling problem: train crossings block emergency response vehicles and buses from reaching their destinations. While building bridges or grade separations was technically possible, the cost was prohibitive. A more feasible approach was to predict train arrivals and optimize traffic management accordingly.
+                </p>
+
+                <p>
+                    The city provided multiple data sources to support train crossing predictions, and Prof. Mussmann, along with HAAG researchers, dedicated the project to leveraging this data for actionable forecasts. Importantly, the data sharing agreement-which formalized what information could be accessed, how it would be used, and how results would be shared-took several months to finalize, highlighting an often-underestimated aspect of real-world partnerships.
+                </p>
 
                 <h3>The Outcome</h3>
                 <div class="case-study-highlight">
-                    <p>A collaboration that is advancing both academic understanding of urban infrastructure challenges and the City's operational capabilities. The research produced:</p>
+                    <p>A collaboration that advances both academic understanding of urban infrastructure challenges and the City's operational capabilities. The research is ongoing, but aimed at producing:</p>
                     <ul class="checkmark-list">
                         <li>A validated predictive model for train blockage likelihood</li>
-                        <li>Actionable insights for traffic management strategies</li>
                         <li>A reusable framework for other cities facing similar challenges</li>
-                        <li>Peer-reviewed publications advancing the field</li>
-                        <li>A blueprint for university-city research partnerships</li>
+                        <li>Peer-reviewed publications advancing applied ML</li>
                     </ul>
                 </div>
+
+                <h3>Next Steps</h3>
+                <p>With promising preliminary results in hand, the team is pursuing three parallel tracks:</p>
+                <ul class="checkmark-list">
+                    <li><strong>Publishing the research:</strong> Documenting findings in peer-reviewed venues to contribute to the applied ML academic literature.</li>
+                    <li><strong>Building a real-world system:</strong> Moving beyond predictive modeling to develop deployable tools that the City can use operationally-such as optimized bus routing informed by train blockage predictions.</li>
+                    <li><strong>Securing additional funding:</strong> With preliminary results demonstrating feasibility, Prof. Mussmann is exploring federal funding opportunities with organizations focused on train crossing prediction. Additional funding would support infrastructure investments like additional sensors and expanded data collection capabilities.</li>
+                </ul>
+
+                <h3>Beyond Charleston: Expanding the Model</h3>
+                <p>The success of this partnership has already sparked new directions. Prof. Mussmann has begun exploring a second project with the same City contact focused on <strong>traffic due to roadway accidents</strong>. While he considered bringing this project into HAAG, the longer timescales required for this research didn't align well with HAAG's operational model, so it's being pursued as a separate research initiative. This demonstrates that succesful collaborations can grow into even larger collaborations. But it also demonstrates that the operational model of HAAG can limit the kinds of external collaborations that are possible.</p>
             </section>
 
             <div class="divider"></div>
@@ -111,8 +121,18 @@
                 <h2>What Made This Work</h2>
 
                 <div class="success-factor">
+                    <h3>✓ A Collaborator Who Understands and Values Science</h3>
+                    <p>The most critical element: The City project manager's genuine understanding of science and engineering, combined with a commitment to using research insights in meaningful work, created an ideal partnership foundation. A collaborator who grasps the research process and respects its rigor removes countless potential friction points.</p>
+                </div>
+
+                <div class="success-factor">
+                    <h3>✓ Institutional Credibility</h3>
+                    <p>Georgia Tech's reputation lent credibility in the early stages of partnership building. This institutional backing helped establish trust and likely played a quiet but important role in getting the conversation started.</p>
+                </div>
+
+                <div class="success-factor">
                     <h3>✓ Mutual Benefit</h3>
-                    <p>Both partners gained valuable outcomes. HAAG accessed rich, real-world data and authentic research questions. Charleston received research-backed insights they could actually implement.</p>
+                    <p>Both partners gained genuine value. Prof. Mussmann and the team had access to rich, real-world data and authentic research questions. Charleston received research-backed insights they could actually implement.</p>
                 </div>
 
                 <div class="success-factor">
@@ -121,18 +141,13 @@
                 </div>
 
                 <div class="success-factor">
-                    <h3>✓ Respect for Context</h3>
-                    <p>HAAG understood the City's constraints—budget limitations, political realities, operational timelines—and adapted academic rigor to fit real-world constraints.</p>
-                </div>
-
-                <div class="success-factor">
                     <h3>✓ Regular Communication</h3>
-                    <p>Consistent touchpoints between faculty, students, and city partners kept everyone aligned on progress, challenges, and priorities.</p>
+                    <p>Email updates every few weeks and a check-in call roughly once a month kept everyone aligned on progress, challenges, and priorities-enough to maintain momentum without overwhelming either side.</p>
                 </div>
 
                 <div class="success-factor">
-                    <h3>✓ Iterative Refinement</h3>
-                    <p>Both teams were willing to adapt as understanding evolved. Early assumptions were tested and revised based on real data.</p>
+                    <h3>✓ IP-Friendly Environment</h3>
+                    <p>Unlike private sector partners, the City did not restrict how research findings were shared. This freedom to publish openly accelerated knowledge advancement and strengthened the credibility of results.</p>
                 </div>
             </section>
 
@@ -142,44 +157,22 @@
             <section id="lessons">
                 <h2>Key Lessons for Future Partnerships</h2>
                 <ol class="process-list">
-                    <li><strong>Start small, think big.</strong> A focused pilot builds trust and credibility faster than proposing a large, complex multi-year commitment.</li>
-                    <li><strong>Listen more than you talk.</strong> External partners understand their problems deeply; academic researchers should ask questions before proposing solutions.</li>
-                    <li><strong>Be transparent about constraints.</strong> Neither academic timelines nor government budgets are infinitely flexible. Set realistic expectations upfront.</li>
-                    <li><strong>Celebrate progress, not perfection.</strong> Incremental improvement in real-world outcomes often beats waiting for the ideal solution.</li>
-                    <li><strong>Build relationships, not just projects.</strong> The strongest partnerships outlast individual research initiatives and evolve as needs change.</li>
+                    <li><strong>Be transparent about constraints and timelines.</strong> Academic timelines and government budgets are both finite and often misaligned. Set realistic expectations upfront. These partnerships typically operate on timescales of months to years-not semester calendars.</li>
+                    <li><strong>Build relationships, not just projects.</strong> The Charleston Trains project has opened the door to further collaboration with the same City contact. The strongest partnerships outlast individual research initiatives.</li>
+                    <li><strong>Don't underestimate administrative work.</strong> Data sharing agreements, institutional approvals, and governance structures take longer than expected. Budget time for this upfront.</li>
+                    <li><strong>Match project scope to team capabilities and timescales.</strong> Master's students may have limited technical experience or face time constraints from semester calendars. Consider students committed to longer-term engagement (a full year) or match complexity to available expertise.</li>
+                    <li><strong>Know what kinds of projects work.</strong> Academic-government partnerships work well for applied ML, edge device development, and HCI-anywhere real-world constraints meet research opportunities. Some projects are better suited to other venues.</li>
+                    <li><strong>Finding partners requires persistence.</strong> Local government and nonprofits often aren't actively seeking academic collaborators-they may assume consulting is their only option. Organizations like Partnership for Innovation can help, but expect to educate potential partners on what academic collaboration offers.</li>
                 </ol>
             </section>
 
             <div class="divider"></div>
-
-            <!-- Next Steps -->
-            <section id="next">
-                <h2>Ready to Start Your Own Partnership?</h2>
-                <p>The Charleston Trains project demonstrates that meaningful university-city research partnerships are possible. If you're interested in collaborating with HAAG:</p>
-                <div class="cta-grid">
-                    <div class="cta-card">
-                        <h3>External Partners</h3>
-                        <p>Learn about our partnership models and how to get started.</p>
-                        <a href="partnerships.html" class="btn btn-primary">Explore Partnership Models →</a>
-                    </div>
-                    <div class="cta-card">
-                        <h3>See All Opportunities</h3>
-                        <p>Browse organizations actively seeking HAAG partnerships.</p>
-                        <a href="opportunities.html" class="btn btn-primary">View Opportunities →</a>
-                    </div>
-                    <div class="cta-card">
-                        <h3>Get In Touch</h3>
-                        <p>Contact us to discuss your specific research or partnership needs.</p>
-                        <a href="contact.html" class="btn btn-primary">Contact HAAG →</a>
-                    </div>
-                </div>
-            </section>
         </main>
     </div>
 
     <footer>
         <p><strong>Last Updated:</strong> April 2026</p>
-        <p><strong>Initiative Lead:</strong> [Name, Title]</p>
+        <p><strong>Initiative Lead:</strong> Avi Cooper</p>
         <p>Questions or Feedback? We'd love to hear from you.</p>
     </footer>
 

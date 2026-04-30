@@ -5,8 +5,8 @@
 }
 
 :root {
-    --primary: #003d7a;
-    --accent: #0066cc;
+    --primary: #004a73;
+    --accent: #0080d0;
     --text: #1a1a1a;
     --text-light: #5a5a5a;
     --bg: #fafafa;
@@ -26,28 +26,52 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Breadcrumb Navigation */
+.breadcrumb {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    border-bottom-color: var(--accent);
+}
+
+.breadcrumb span {
+    color: var(--text-light);
+    margin: 0 0.5rem;
+}
+
 /* Header */
 header {
-    background: linear-gradient(135deg, var(--primary) 0%, #004a9c 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, #006b9e 100%);
     color: white;
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     text-align: center;
     border-bottom: 4px solid var(--accent);
 }
 
 h1 {
     font-family: 'Merriweather', serif;
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 0.25rem;
     font-weight: 700;
     letter-spacing: -0.5px;
 }
 
 .tagline {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     opacity: 0.95;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .header-divider {
@@ -87,7 +111,7 @@ h1 {
 
 .nav-logo {
     font-family: 'Merriweather', serif;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--primary);
     text-decoration: none;
@@ -487,6 +511,22 @@ tbody tr:last-child td {
     text-align: center;
 }
 
+.highlight-item--primary {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.highlight-item--primary .highlight-number {
+    color: white;
+}
+
+.highlight-item--primary p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .highlight-number {
     font-family: 'Merriweather', serif;
     font-size: 1.4rem;
@@ -671,8 +711,12 @@ footer {
     padding: 2rem;
     text-align: center;
     margin-top: 4rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     opacity: 0.9;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
 }
 
 /* Responsive */
