@@ -44,7 +44,7 @@ To support Phase 1 of this procedure, the initiative also maintains a **Partners
 
 ### Procedure 2: Website Maintenance & Initiative Leadership
 
-This procedure covers the ongoing stewardship of the initiative itself — how the website is maintained and how leadership of the initiative transitions over time. It defines the role of the Initiative Lead (keeping the partner directory current, running the annual procedure review, maintaining the partnership registry, and serving as the primary point of contact for new partnership inquiries), specifies what a clean leadership handoff entails (documentation walkthrough, partner introductions, communication transfer, and open items briefing), and ensures the initiative can continue beyond any single person's tenure. The procedure is documented in the Governance & Integration page.
+This procedure covers the ongoing stewardship of the initiative itself — how the website is maintained and how leadership of the initiative transitions over time. It defines the role of the Initiative Lead (keeping the partner directory current, writing a semester summary, maintaining the partnership registry, and serving as the primary point of contact for new partnership inquiries), specifies what a clean leadership handoff entails (documentation walkthrough, partner introductions, communication transfer, and open items briefing), and ensures the initiative can continue beyond any single person's tenure. The procedure is documented in the Governance & Integration page.
 
 **Link:** [website/governance.html](website/governance.html)
 
@@ -76,6 +76,6 @@ This procedure covers the ongoing stewardship of the initiative itself — how t
 
 ### The procedures have provided a clear mechanism for integration and enforcement of the process into HAAG's existing structure
 
-- **Collaboration procedure:** [governance.html](website/governance.html) defines decision authority at each phase, a partnership registry, quarterly oversight reviews, semi-annual community reports, and an annual procedure review
+- **Collaboration procedure:** [governance.html](website/governance.html) defines decision authority at each phase, a partnership registry, and a semesterly review cycle — projects operate independently once approved, with the initiative lead acting as steward rather than manager
 - **Website/leadership procedure:** The Initiative Lead role is formally defined with named responsibilities; succession is built into the governance structure rather than left to chance
 
